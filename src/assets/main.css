@@ -1,0 +1,116 @@
+
+
+b{
+  font-weight: bolder;
+}
+p{
+  margin-bottom: 1rem;
+}
+h1,h2{
+  margin: 2rem;
+}
+h5{
+  text-align: right;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 2rem;
+}
+.book-item {
+  background: #f2f9fc;
+  padding: 10px;
+  outline-style: solid;
+  outline-color: rgb(1, 159, 250);
+  outline-width:1px;
+  color:black;
+  margin: 2rem;
+  border-radius: 15px;
+}
+.book-detail{
+  margin: 2rem;
+}
+.cart-item{
+  background: #fffefa;
+  padding: 10px;
+  outline-style: solid;
+  outline-color: rgb(250, 217, 111);
+  outline-width:1px;
+  color:black;
+  margin: 2rem;
+  border-radius: 15px;
+}
+.total-in-cart{
+  color:rgb(2, 151, 250);
+  font-weight: bolder;
+  font-size: 1.25rem;
+}
+.cart-empty{
+  
+  padding: 10px;
+  outline-style: solid;
+  outline-color: rgba(46, 46, 46, 0.336);
+  outline-width:1px;
+  color:rgba(49, 48, 48, 0.288);
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  border-radius: 15px;
+}
+.fixed-content {
+  top: 0;
+  right: 0;
+  position:fixed;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  height: 90%;
+  justify-content: flex-end;
+
+  box-sizing: border-box;
+}
+@media screen and (max-width: 768px) {
+  .fixed-content {
+    top: 0;
+    right: 0;
+    position:relative;
+    overflow-y:hidden;
+    overflow-x:hidden;
+    justify-content: flex-end;
+    box-sizing: border-box;
+  }
+
+}
+
+/* #app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  }
+} */
